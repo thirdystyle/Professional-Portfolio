@@ -1,0 +1,7 @@
+@keyframes changeColor {
+    0% { background-color: red; }
+    100% { background-color: blue; }
+}
+
+.box {
+    animation: changeColor 1s infinite alternate;}
